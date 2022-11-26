@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class MyProfile extends StatelessWidget {
+  const MyProfile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Profile page')),
+      body: Container(
+        child: Center(child: Text('Profile page')),
+      ),
+    );
+  }
+}
